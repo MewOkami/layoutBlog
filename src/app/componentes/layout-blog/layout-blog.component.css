@@ -1,0 +1,106 @@
+.containerLayout {
+  padding-left: 15vw;
+  padding-right: 15vw;
+
+  padding-top: 60px;
+}
+
+.containerLayout-divTitles {
+  display: flex;
+  flex-direction: column;
+
+  gap: 24px;
+}
+
+.containerLayout-divTitles_divTagTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.containerLayout-divTitles_tagTitle {
+  width: 100px;
+  height: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 20px;
+
+  color: #6f6fc9;
+  background-color: #342f83;
+}
+
+.containerLayout-divTitles_titleBlog {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+
+  gap: 30px;
+}
+
+.containerLayout-divTitles_titleBlogButton {
+  width: 150px;
+  height: 40px;
+
+  border: none;
+  border-radius: 20px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  color: #dbdff0;
+  background-color: #342f83;
+}
+
+.containerLayout-divTitles_descriptionBlog {
+  width: 50vw;
+}
+
+.containerLayout-posts {
+  padding-top: 80px;
+  padding-bottom: 32px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  gap: 30px;
+}
+
+.containerLayout-posts_techimage {
+  width: 350px;
+}
+
+.containerLayout-posts_divpost {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 30px;
+}
+
+.containerLayout-posts_divTexts {
+  width: 300px;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  gap: 30px;
+}
+
+.containerLayout-posts_divTextsDescripition {
+  font-weight: 300;
+}
+
+.containerLayout-posts_divTextsMore {
+  font-weight: 700;
+
+  color: #7e85c6;
+}
